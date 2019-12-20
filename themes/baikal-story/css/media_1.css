@@ -1,0 +1,857 @@
+/*---Begin media queries---*/
+@media (max-width: 1400px) {
+    html {
+        font-size: 16px;
+    }
+    .appartament-popup__close {
+        left: 95%;
+    }
+}
+
+@media (max-width: 1350px) {
+    html {
+        font-size: 15.5px;
+    }
+}
+
+@media (max-width: 1300px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1150px) {
+    html {
+        font-size: 13.5px;
+    }
+}
+
+@media (max-width: 1100px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 12.5px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .float-block {
+        position: relative;
+    }
+
+    .breadcrumb_mb {
+        margin-top: 20px;
+    }
+
+    .head-page__nav-menu {
+        display: none;
+    }
+
+    .head-page {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 0 0 0 20px;
+        border-bottom: 1px solid #E4E4E4;
+        background-color: #fff;
+        z-index: 100000;
+        -webkit-transition: opacity 0.3s ease;
+        -o-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+    }
+
+    .head-page__row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .head-page__contact-phone {
+        display: none;
+    }
+
+    .head-page__burger-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        border-left: 1px solid #E4E4E4;
+    }
+
+    .head-page__appartament-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .fixed-mobile-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .language {
+        width: 70px;
+        height: 60px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-left: 1px solid #E4E4E4;
+    }
+
+    .language__text {
+        display: none;
+    }
+
+
+    .language__current img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .language__current span {
+        display: block;
+        margin-left: 6px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .language__list {
+        right: auto;
+        left: -1px;
+        padding: 0;
+    }
+
+    .language.is-active {
+        background-color: #CDA990;
+        color: #fff;
+    }
+
+    .language__list a {
+        width: 71px;
+        height: 60px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: #FFFFFF;
+        border: 1px solid #E4E4E4;
+    }
+
+    .language__list li:not(:last-child) {
+        margin: 0;
+    }
+
+    .language__list li:not(:first-child) {
+        margin-top: -1px;
+    }
+
+    .language__list a span {
+        display: block;
+        margin-left: 6px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6C6F77;
+    }
+
+    .language__list li img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .promo__inner {
+        border-radius: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .appartament-popup__header {
+        display: none;
+    }
+
+    .appartament-popup__body {
+        height: 100%;
+        padding-top: 80px;
+    }
+
+    .prew-appartaments-slider__controls {
+        display: none;
+    }
+
+    .about__left {
+        width: 100%;
+    }
+
+    .about__right {
+        width: 100%;
+    }
+
+    .about__title {
+        margin-bottom: 0;
+    }
+
+    .about__title br {
+        display: none;
+    }
+
+    .about__bg {
+        /* display: none; */
+        position: static;
+        margin: 0 auto;
+    }
+
+    .benefits__col {
+        width: 25%;
+    }
+
+    .location {
+        margin-bottom: 30px;
+    }
+
+    .location__row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .location__title {
+        margin-bottom: 30px;
+    }
+
+    .location__desc br {
+        display: none;
+    }
+
+    .location__map {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .prew-appartaments__row {
+        width: 100%;
+        height: auto;
+    }
+
+    .prew-appartaments__content {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .prew-appartaments-slider_inner-page {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .prew-appartaments__title {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .prew-appartaments-slider__pagination {
+        left: 15px;
+    }
+
+    .prew-appartaments__appartaments-info-tile {
+        right: 15px;
+    }
+
+    .prew-appartaments-slider__slide .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+
+    .reviews__title br {
+        display: none;
+    }
+
+    .reviews__sidebar {
+        width: auto;
+    }
+
+    .reviews__content {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .reviews_page .review:last-child {
+        border-bottom: 0;
+    }
+
+    .reviews__reviews-switcher {
+        margin-bottom: 30px;
+    }
+
+    .excursions {
+        height: 100vh;
+    }
+
+    .appartament-tile {
+        opacity: 1;
+    }
+
+    .appartament-tile:hover .appartament-tile__thumb {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .body-inner-page__left {
+        width: 100%;
+    }
+
+    .body-inner-page__right {
+        display: none;
+    }
+
+    .btn-fill_fixed {
+        display: block;
+        border-radius: 0;
+    }
+
+    .contact-page__left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contact-page__right {
+        width: 100%;
+    }
+
+    .contact-page__map {
+        width: 100%;
+        height: 250px;
+    }
+
+    .order-modal__left {
+        display: none;
+    }
+
+    .order-modal__right {
+        width: 100%;
+    }
+
+    .order-modal__step {
+        padding: 30px;
+    }
+
+    .order-modal__guests-count-wrapper {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .order-modal__datepicker-here .datepicker--cell {
+
+    }
+
+    .order-modal__dates-wrapper {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .order-modal__datepicker-here {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .order-modal__close {
+        opacity: 1;
+    }
+
+    .foot-page__language {
+        display: none;
+    }
+
+    .foot-page__contact-phone {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .display_size_big {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .promo__title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .benefits__col {
+        width: 50%;
+    }
+
+    .location {
+        padding-top: 50px;
+        border-top: 1px solid #EBEBEB;
+        text-align: center;
+    }
+
+    .location__desc {
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .reviews {
+        padding: 20px 0 70px;
+    }
+
+    .instagram__title {
+        padding: 0 20px;
+    }
+
+    .excursions__title {
+        font-size: 80px;
+    }
+
+    .appartaments-info-tile__head {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .appartaments-info-tile__value {
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -0.1em;
+        color: #D5B28F;
+    }
+
+    .appartaments-info-tile__text {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .appartaments-info-tile__btn {
+        width: 100%;
+    }
+
+    .appartament-tile {
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .appartament-popup__content_around {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .prew-appartaments__title-inner-page {
+        margin-bottom: 15px;
+    }
+
+    .prew-appartaments_inner-page {
+        margin-bottom: 25px;
+    }
+
+    .prew-appartaments_desctop_hide {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .prew-appartaments_mobile_hide {
+        display: none;
+    }
+
+    .prew-appartaments__appartaments-info-tile {
+        height: 545px;
+        position: relative;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        background: #FCF7F1;
+    }
+
+    .prew-appartaments__appartaments-info-tile img {
+        display: block;
+        width: 488px;
+        height: 230px;
+
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        bottom: -30px;
+    }
+
+    .places {
+        margin-bottom: 40px;
+    }
+
+    .conveniences {
+        margin-bottom: 40px;
+    }
+
+    .body-inner-page__img {
+        margin-bottom: 40px;
+    }
+
+    .foot-page__bottom {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .foot-page__copy {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .foot-page__policy {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .foot-page__design-dev {
+        width: 100%;
+    }
+
+    .foot-page__row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .foot-page__logo {
+        margin-bottom: 30px;
+    }
+
+    .foot-page__nav-menu {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .foot-page__nav-menu .nav-menu__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .foot-page__contact-phone {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .logo__text {
+        font-size: 14px;
+        line-height: 16px;
+        color: #6C6F77;
+    }
+
+    .messanger-list__item {
+        width: 25%;
+    }
+
+    .about__bg  {
+        width: 100%;
+        height: auto;
+        padding-bottom: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 20px;
+    }
+
+    .benefits__label {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .benefits__text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .location__desc .mob {
+        display: block;
+    }
+
+    .location__zoom-wrapper {
+        display: block;
+    }
+
+    .benefits__icon {
+        margin-bottom: 25px;
+    }
+
+    .benefits__col {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .benefits__col:last-child {
+        margin-bottom: 0;
+    }
+
+    .benefits__label {
+        max-width: 215px;
+        margin: 0 auto 15px auto;
+    }
+
+    .benefits__text {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .prew-appartaments_inner-page {
+        padding-bottom: 0;
+    }
+
+    .form__messanger-list .messanger-list__item:not(:last-child) {
+        margin-left: -1px;
+    }
+
+    .reviews__subtext {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .partner-tile {
+        margin: 0 auto;
+    }
+
+    .reviews__partner-tile {
+        margin: 0 auto -1px auto;
+    }
+
+    .excursions {
+        height: 90vh;
+        background-image: url(../img/static/show-bg_mob.jpg);
+        background-position: center bottom;
+        padding-top: 130px;
+    }
+
+    .partner-tile:last-child {
+        margin-bottom: 30px;
+    }
+
+    .reviews-switcher__label {
+        display: none;
+    }
+
+    .reviews-switcher__tabs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .reviews-switcher__tab:not(:last-child) {
+        margin: 0;
+    }
+
+    .excursions__title {
+        font-size: 50px;
+    }
+
+    .appartament-tile {
+        margin-bottom: 50px;
+    }
+
+    .appartament-popup__value {
+        font-size: 30px;
+    }
+
+    .appartament-popup__desc {
+        font-size: 1rem;
+    }
+
+    .prew-appartaments-slider_inner-page {
+        height: auto;
+    }
+
+    .prew-appartaments-slider__slide {
+        padding-bottom: 55%;
+    }
+
+    .location__map {
+        position: relative;
+        height: 290px;
+        overflow: hidden;
+    }
+
+    .location__map img {
+        width: auto;
+        height: 100%;
+
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 0;
+    }
+
+    .places .place:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .places .place {
+        width: 100%;
+        height: auto;
+        margin-bottom: -1px;
+    }
+
+    .place__icon {
+        margin-bottom: 20px;
+    }
+
+    .place__desc br {
+        display: none;
+    }
+
+    .messanger-check {
+        width: 100%;
+    }
+
+    .partner-tile {
+        width: 100%;
+    }
+
+    .order-modal__step {
+        padding: 30px 15px;
+    }
+
+    .form__messanger-list .messanger-list__item {
+        width: 25%;
+    }
+
+    .order-modal__btn-back {
+        width: 130px;
+    }
+
+    .order-modal__submit {
+        padding: 0 20px;
+    }
+
+    .order-modal__close {
+        top: 10px;
+        right: 10px;
+    }
+
+    .order-modal__datepicker-here .datepicker--day-name {
+        margin: 0 0.3rem;
+    }
+
+    .success__br {
+        display: block;
+    }
+
+    .nav-menu__btn {
+        font-size: 16px;
+    }
+
+    .nav-menu__link {
+        font-size: 16px;
+    }
+
+    .nav-menu__item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .order-modal__datepicker-here {
+        max-width: 100%;
+        background: #fff;
+        border: 1px solid #F1EBE2;
+        margin-bottom: 20px;
+    }
+
+    .order-modal__datepicker-here .datepicker {
+        width: 100%;
+        max-width: 348px;
+        border: none;
+    }
+
+    .order-modal__datepicker-here .datepicker-inline {
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .order-modal__dates-wrapper {
+        max-width: 100%;
+    }
+
+    .order-modal__guests-count-wrapper {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .order-modal__datepicker-here .datepicker--cell {
+        margin: 0.3125rem 0.3rem;
+    }
+}
